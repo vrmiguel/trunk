@@ -1,0 +1,12 @@
+[extension]
+name = "pg_role_fkey_trigger_functions"
+version = "0.11.9"
+license = "postgresql"
+repository = "https://github.com/bigsmoke/pg_role_fkey_trigger_functions"
+description = "The pg_role_fkey_trigger_functions PostgreSQL extension offers a bunch of trigger functions to help establish and/or maintain referential integrity for columns that reference PostgreSQL ROLE NAMEs."
+homepage = "https://blog.bigsmoke.us/tag/pg_role_fkey_trigger_functions"
+documentation = "https://github.com/bigsmoke/pg_role_fkey_trigger_functions"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
