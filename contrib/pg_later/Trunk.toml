@@ -1,0 +1,12 @@
+[extension]
+name = "pg_later"
+version = "0.1.0"
+license = "postgresql"
+repository = "https://github.com/tembo-io/pg_later/"
+description = "A postgres extension to execute queries asynchronously built on pgmq"
+homepage = "https://github.com/tembo-io/pg_later/"
+documentation = "https://github.com/tembo-io/pg_later/"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
