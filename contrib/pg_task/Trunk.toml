@@ -1,0 +1,12 @@
+[extension]
+name = "pg_task"
+version = "2.1.0"
+license = "mit"
+repository = "https://github.com/RekGRpth/pg_task"
+description = "PostgreSQL and Greenplum job scheduler pg_task allows to execute any sql command at any specific time at background asynchronously"
+homepage = "https://github.com/RekGRpth/pg_task"
+documentation = "https://github.com/RekGRpth/pg_task"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
