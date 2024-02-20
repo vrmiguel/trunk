@@ -1,19 +1,12 @@
 [extension]
 name = "pg_text_semver"
-version = "0.1.4"
+version = "0.1.5"
+license = "postgresql"
 repository = "https://github.com/bigsmoke/pg_text_semver"
-license = "Copyright"
-description = "PostgreSQL semantic versioning extension, with comparison functions and operators."
+description = "The pg_text_semver extension offers a \"semver\" DOMAIN type based on Postgres' built-in \"text\" type."
+homepage = "https://blog.bigsmoke.us/tag/pg_text_semver"
 documentation = "https://github.com/bigsmoke/pg_text_semver"
-categories = ["data_transformations"]
 
 [build]
 postgres_version = "15"
 platform = "linux/amd64"
-dockerfile = "Dockerfile"
-install_command = """
-    cd pg_text_semver && make install
-    set -x
-    mv /usr/local/pgsql/share/extension/* /usr/share/postgresql/15/extension
-    mv /usr/local/pgsql/lib/* /usr/lib/postgresql/15/lib
-    """
