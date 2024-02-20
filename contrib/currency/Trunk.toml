@@ -1,0 +1,12 @@
+[extension]
+name = "currency"
+version = "0.0.4"
+license = "PostgreSQL"
+repository = "http://github.com/adjust/pg-currency "
+description = "This extnesion effectively provides a currency list as an enumerable one-byte integer, ideal for analytics workloads.  The currency list will be updated as needed."
+homepage = "http://github.com/adjust/pg-currency "
+documentation = "http://github.com/adjust/pg-currency "
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"

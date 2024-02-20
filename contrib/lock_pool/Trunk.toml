@@ -1,0 +1,12 @@
+[extension]
+name = "lock_pool"
+version = "0.0.1"
+license = "PostgreSQL"
+repository = "http://github.com/adjust/pg_lock_pool"
+description = "To wait on a lock pool"
+homepage = "http://github.com/adjust/pg_lock_pool"
+documentation = "http://github.com/adjust/pg_lock_pool"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"

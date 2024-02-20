@@ -1,0 +1,12 @@
+[extension]
+name = "device_type"
+version = "0.0.3"
+license = "PostgreSQL"
+repository = "http://github.com/adjust/pg-device_type"
+description = "This extension offers a fixed-byte storage type that works as an enum for mobile device types."
+homepage = "http://github.com/adjust/pg-device_type"
+documentation = "http://github.com/adjust/pg-device_type"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"

@@ -1,0 +1,12 @@
+[extension]
+name = "datasketches"
+version = "1.7.0"
+license = "postgresql"
+repository = "https://github.com/apache/datasketches-postgresql"
+description = "approximate algorithms for big data analysis"
+homepage = "https://github.com/apache/datasketches-postgresql"
+documentation = "https://github.com/apache/datasketches-postgresql"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
