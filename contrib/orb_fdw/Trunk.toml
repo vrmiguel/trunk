@@ -1,0 +1,12 @@
+[extension]
+name = "orb_fdw"
+version = "0.0.1"
+license = "postgresql"
+repository = "https://github.com/tembo-io/orb_fdw/"
+description = "A simple open-source data wrapper that bridges the gap between your Postgres database and [Orb](https://www.withorb.com/) a leading usage-based billing solution."
+homepage = "https://github.com/tembo-io/orb_fdw/"
+documentation = "https://github.com/tembo-io/orb_fdw/"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
