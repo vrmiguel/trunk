@@ -1,0 +1,12 @@
+[extension]
+name = "vectorize"
+version = "0.8.0"
+license = "postgresql"
+repository = "https://github.com/tembo-io/pg_vectorize/"
+description = "Vectorize automates that the transformation and orchestration of text to embeddings, allowing you to do vector and semantic search on existing data with as little as two function calls."
+homepage = "https://github.com/tembo-io/pg_vectorize/"
+documentation = "https://github.com/tembo-io/pg_vectorize/"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
