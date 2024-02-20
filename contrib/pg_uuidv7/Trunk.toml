@@ -1,23 +1,12 @@
 [extension]
 name = "pg_uuidv7"
-version = "1.0.0"
+version = "1.4.0"
+license = "open_source"
 repository = "https://github.com/fboulnois/pg_uuidv7"
-license = "MPL-2.0"
-description = "Create valid version 7 UUIDs in Postgres."
+description = "Create UUIDv7 values in Postgres"
+homepage = "https://github.com/fboulnois/pg_uuidv7"
 documentation = "https://github.com/fboulnois/pg_uuidv7"
-categories = ["data_transformations"]
-preload_libraries = ["pg_uuidv7"]
-
-[dependencies]
-apt = ["libc6"]
 
 [build]
 postgres_version = "15"
 platform = "linux/amd64"
-dockerfile = "Dockerfile"
-install_command = """
-    cd pg_uuidv7 && make install
-    set -x
-    mv /usr/local/pgsql/share/extension/* /usr/share/postgresql/15/extension
-    mv /usr/local/pgsql/lib/* /usr/lib/postgresql/15/lib
-    """
