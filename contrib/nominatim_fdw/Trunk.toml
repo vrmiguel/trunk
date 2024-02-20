@@ -1,0 +1,12 @@
+[extension]
+name = "nominatim_fdw"
+version = "1.0.0"
+license = "mit"
+repository = "https://github.com/jimjonesbr/nominatim_fdw"
+description = "A PostgreSQL Foreign Data Wrapper to access data from Nominatim servers using simple function calls."
+homepage = "https://github.com/jimjonesbr/nominatim_fdw"
+documentation = "https://github.com/jimjonesbr/nominatim_fdw"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
