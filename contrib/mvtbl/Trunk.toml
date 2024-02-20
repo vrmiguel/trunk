@@ -1,0 +1,12 @@
+[extension]
+name = "mvtbl"
+version = "0.0.2"
+license = "PostgreSQL"
+repository = "http://github.com/adjust/pg-mvtbl"
+description = "Easily move tables around tablespaces"
+homepage = "http://github.com/adjust/pg-mvtbl"
+documentation = "http://github.com/adjust/pg-mvtbl"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
