@@ -1,0 +1,12 @@
+[extension]
+name = "wltree"
+version = "0.2.0"
+license = "PostgreSQL"
+repository = "http://github.com/adjust/wltree"
+description = "This is adevens patched version of Postgres ltree module"
+homepage = "http://github.com/adjust/wltree"
+documentation = "http://github.com/adjust/wltree"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
