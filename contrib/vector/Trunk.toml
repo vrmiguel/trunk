@@ -1,0 +1,12 @@
+[extension]
+name = "vector"
+version = "0.6.0"
+license = "PostgreSQL"
+repository = "https://github.com/pgvector/pgvector"
+description = "Supports L2 distance, inner product, and cosine distance"
+homepage = "https://github.com/pgvector/pgvector"
+documentation = "https://github.com/pgvector/pgvector"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
