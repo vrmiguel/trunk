@@ -1,6 +1,6 @@
 [extension]
 name = "pg_uuidv7"
-version = "1.4.0"
+version = "1.4.1"
 license = "open_source"
 repository = "https://github.com/fboulnois/pg_uuidv7"
 description = "Create UUIDv7 values in Postgres"
