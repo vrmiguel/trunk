@@ -1,0 +1,12 @@
+[extension]
+name = "trimmed_aggregates"
+version = "2.0.0-dev"
+license = "bsd"
+repository = "http://github.com/tvondra/trimmed_aggregates"
+description = "An extension written in C that allows you to remove outliers before computing the basic statistical aggregates (AVG/STDDEV/VARIANCE)."
+homepage = "http://github.com/tvondra/trimmed_aggregates"
+documentation = "http://github.com/tvondra/trimmed_aggregates"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
