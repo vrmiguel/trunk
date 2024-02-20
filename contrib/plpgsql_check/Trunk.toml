@@ -1,22 +1,12 @@
 [extension]
 name = "plpgsql_check"
-version = "2.3.0"
-repository = "https://github.com/okbob/plpgsql_check"
-license = "Copyright"
-description = "Linter tool for the PostgreSQL language plpgsql."
-documentation = "https://github.com/okbob/plpgsql_check"
-categories = ["debugging"]
-
-[dependencies]
-apt = ["libc6"]
+version = "2.7.1"
+license = "bsd"
+repository = "https://github.com/okbob/plpgsql_check/"
+description = "The plpgsql_check is PostgreSQL extension with functionality for direct or indirect extra validation of functions in plpgsql language. It verifies a validity of SQL identifiers used in plpgsql code. It try to identify a performance issues. Modern versions has integrated profiler. The table and function dependencies can be displayed"
+homepage = "https://github.com/okbob/plpgsql_check/"
+documentation = "https://github.com/okbob/plpgsql_check/"
 
 [build]
 postgres_version = "15"
 platform = "linux/amd64"
-dockerfile = "Dockerfile"
-install_command = """
-    cd plpgsql_check && make install
-    set -x
-    mv /usr/local/pgsql/share/extension/* /usr/share/postgresql/15/extension
-    mv /usr/local/pgsql/lib/* /usr/lib/postgresql/15/lib
-    """
