@@ -1,0 +1,12 @@
+[extension]
+name = "pg_safer_settings"
+version = "0.8.11"
+license = "postgresql"
+repository = "https://github.com/bigsmoke/pg_safer_settings"
+description = "The pg_safer_settings extension bundles a handful of functions and mechanisms to make dealing with settings in Postgres a bit … safer."
+homepage = "https://blog.bigsmoke.us/tag/pg_safer_settings"
+documentation = "https://github.com/bigsmoke/pg_safer_settings"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
