@@ -1,0 +1,12 @@
+[extension]
+name = "pg_utility_trigger_functions"
+version = "1.9.2"
+license = "postgresql"
+repository = "https://github.com/bigsmoke/pg_utility_trigger_functions"
+description = "The pg_utility_trigger_functions PostgreSQL extensions bundles together some pet trigger functions that the extension author likes to follow him through various PostgreSQL projects."
+homepage = "https://blog.bigsmoke.us/tag/pg_utility_trigger_functions"
+documentation = "https://github.com/bigsmoke/pg_utility_trigger_functions"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
