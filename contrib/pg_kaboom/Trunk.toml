@@ -1,0 +1,12 @@
+[extension]
+name = "pg_kaboom"
+version = "0.0.1"
+license = "apache_2_0"
+repository = "https://github.com/pgguru/pg_kaboom/"
+description = "Fault Injection Software to generate specific types of crashes in your Postgres server"
+homepage = "https://github.com/pgguru/pg_kaboom/"
+documentation = "https://github.com/pgguru/pg_kaboom/"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
