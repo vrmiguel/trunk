@@ -1,0 +1,12 @@
+[extension]
+name = "pg_xenophile"
+version = "0.8.1"
+license = "postgresql"
+repository = "https://github.com/bigsmoke/pg_xenophile"
+description = "The pg_xenophile extension provides more than the bare necessities for working with different countries, currencies, languages, and translations."
+homepage = "https://blog.bigsmoke.us/tag/pg_xenophile"
+documentation = "https://github.com/bigsmoke/pg_xenophile"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
