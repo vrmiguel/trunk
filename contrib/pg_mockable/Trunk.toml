@@ -1,0 +1,12 @@
+[extension]
+name = "pg_mockable"
+version = "1.0.1"
+license = "postgresql"
+repository = "https://github.com/bigsmoke/pg_mockable"
+description = "The `pg_mockable` extension can be used to create mockable versions of functions from other schemas."
+homepage = "https://blog.bigsmoke.us/tag/pg_mockable"
+documentation = "https://github.com/bigsmoke/pg_mockable"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
