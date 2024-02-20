@@ -1,0 +1,12 @@
+[extension]
+name = "pg_rowalesce"
+version = "0.1.12"
+license = "postgresql"
+repository = "https://github.com/bigsmoke/pg_rowalesce"
+description = "The pg_rowalesce PostgreSQL extensions its defining feature is the rowalesce() function. rowalesce() is like coalesce(), but for rows and other composite types. From its arbitrary number of argument rows, for each field/column, rowalesce() takes the value from the first row for which that particular field/column has a not null value."
+homepage = "https://blog.bigsmoke.us/tag/pg_rowalesce"
+documentation = "https://github.com/bigsmoke/pg_rowalesce"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
