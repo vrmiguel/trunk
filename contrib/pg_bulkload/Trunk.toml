@@ -1,0 +1,12 @@
+[extension]
+name = "pg_bulkload"
+version = "3.1.21"
+license = "bsd"
+repository = "http://ossc-db.github.io/pg_bulkload/index.html"
+description = "pg_bulkload is designed to load huge amount of data to a database. You can load data to table bypassing PostgreSQL shared buffers."
+homepage = "http://ossc-db.github.io/pg_bulkload/index.html"
+documentation = "http://ossc-db.github.io/pg_bulkload/index.html"
+
+[build]
+postgres_version = "15"
+platform = "linux/amd64"
